@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  startdate: 2016-08-27 19:54:47
+  location: MyString
+  style: MyString
+  location: MyString
+  attendee: MyString
+  budget: MyString
+
+two:
+  startdate: 2016-08-27 19:54:47
+  location: MyString
+  style: MyString
+  location: MyString
+  attendee: MyString
+  budget: MyString

@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+
+  get 'search' => 'prototype#search.html.erb'
+  get 'list' => 'prototype#list.html.erb'
+  get 'compare' => 'prototype#compare.html.erb'
+  get 'decide' => 'prototype#decide.html.erb'
+
+
+ 
+
+  resources :searches
+  get 'search' => 'searches#search'
+  #get 'sessions/new'
+  get 'login' => 'sessions#new'
+  post 'login' => 'sessions#create'
+  delete 'logout' => 'sessions#destroy'
+
   get 'users/new'
 
   root 'static_pages#home'

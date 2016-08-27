@@ -15,7 +15,7 @@ development:
   adapter: mysql2
   #  encoding: utf8mb4
   pool: 5
-  database: rails_tutorial
+  database: weding
   username: 'root'
   password: 'cjfrkaus'
   host: 127.0.0.1
