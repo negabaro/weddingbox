@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @item.title %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @item.location %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @item.price %>
+</p>
+
+<p>
+  <strong>Other:</strong>
+  <%= @item.other %>
+</p>
+
+<p>
+  <strong>Other1:</strong>
+  <%= @item.other1 %>
+</p>
+
+<p>
+  <strong>Other2:</strong>
+  <%= @item.other2 %>
+</p>
+
+<p>
+  <strong>Other3:</strong>
+  <%= @item.other3 %>
+</p>
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>

@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :items
   get 'search' => 'prototype#search.html.erb'
   get 'list' => 'prototype#list.html.erb'
   get 'compare' => 'prototype#compare.html.erb'
@@ -17,7 +18,8 @@ Rails.application.routes.draw do
 
   get 'users/new'
 
-  root 'static_pages#home'
+  root 'prototype#search'
+  #root 'static_pages#home'
   #get 'static_pages#home'
   get 'help'    => 'static_pages#help'
   get 'about'   => 'static_pages#about'

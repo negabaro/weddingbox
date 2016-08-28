@@ -1,0 +1,247 @@
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color:#51C4CC;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topnav {
+    font-size: 16px; 
+    padding: 5px;
+    text-align: center;
+    opacity: 0.95;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    margin-top: -80px;
+    text-align: right;
+    color: #f8f8f8;
+    background: url(assets/intro-bg-01.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 35%;
+    padding-bottom: 15%;
+    text-align: center;
+    line-height: 200%;
+}
+
+.intro-message h1 {
+    line-height: 125%;
+}
+
+.intro-message-02 {
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+
+.intro-message-02 > h4 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 1.5em;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3.25em;
+}
+
+.intro-message > h3 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 2.25em;
+}
+
+.btn-intro {
+    background-color:#EBBA74;
+    text-align:center;
+    border-radius:100px;
+    color: white;
+}
+
+.btn-intro:hover {
+    background-color: white;
+    color: #2B2724;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-top: 50%;
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    .intro-message > h3 {
+        font-size: 2em;
+    }
+
+}
+
+
+.search-bar h3 {
+    font-weight: lighter;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #d1d2d4;
+    font-weight: lighter;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #d1d2d4;
+   font-weight: lighter;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #d1d2d4;
+   font-weight: lighter;
+   opacity:  1;
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.sub-email {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    border-radius: 0px;
+    border: none;
+}
+
+.btn-sub {
+    border-radius: 0px;
+    color: white;
+    background-color: #7CC6FE;
+}
+
+.btn-sub:hover {
+    color: white;
+    background-color: #CCD5FF;
+}
+
+.flogo > img {
+    height: 80px;
+    padding: 10px;
+}
+
+@media(max-width:767px) {
+    .flogo > img {
+        height: 65px;
+        padding: 5px;
+    }
+}
+
+.contact-us {
+    text-decoration: none;
+}
+
+.contact-us:hover {
+    color: #2B2724;
+    text-decoration: none;
+}
+
+.panel-search {
+    background-color:#2B2724;
+    background-color:transparent;
+    border: none;
+    opacity: 0.975;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.panel-hover:hover {
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    background-color:#F9F9F9;
+    color:#2B2724;
+    text-decoration: none;
+}
+
+.panel-text {
+    color:black;
+}
+
+.btn-xx {
+    border-radius: 0px;
+    color: white;
+    background-color: #51C4CC;
+}
+
+.btn-xx:hover {
+    background-color: #51C4CC;
+    color: white;
+}
+
+.step-pic {
+    padding: 10px;
+}
+
+.panel-heading-sugg a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    margin-top: -27px;
+    color: #EBBA74;
+}
+.panel-heading-sugg a.collapsed:after {
+    content:"\e080";
+        padding-top: -100px;
+}
+
+.btn-con {
+    border-radius: 0px;
+    color: white;
+    background-color: #2B2724;
+}
+
+.btn-con:hover {
+    background-color: white;
+    color: #2B2724;
+}
+
+.style-hover:hover {
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.6);
+}
+
+select {  
+    height: 58px;
+    line-height:30px;
+    border-radius: 0px;
+    border: 0px;
+    outline: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}

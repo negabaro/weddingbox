@@ -43,3 +43,11 @@ rails destroy scaffold "search"
 
 bundle exec unicorn -c config/unicorn.rb -E development &
 
+
+rails g scaffold item title:string location:string  price:string other:string other1:string other2:string other3:string
+rails destroy scaffold item
+
+scp web.zip kaka@157.7.198.205:~/
+
+bundle exec rake assets:precompile
+

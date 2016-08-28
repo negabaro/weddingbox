@@ -1,11 +1,103 @@
-<p id="notice"><%= notice %></p>
-<h1>list一覧</h1>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>WeddingBox</title>
+
+<%= stylesheet_link_tag "css/bootstrap.min" %>
+<%= stylesheet_link_tag "css/landing-page" %>
+<%= javascript_include_tag 'css/bootstrap.min' %>
+
+<link href="http://fonts.googleapis.com/css?family=Montserrat:700, 400" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<link rel="shortcut icon" href="assets/favicon.ico" type="assets/x-icon">
+<link rel="icon" href="assets/favicon.ico" type="assets/x-icon">
+
+</head>
 
 
-<%= render 'prototype/2list/list_box' %>
+<div style="height:3px;">
+</div>
 
-<br>
-<br>
-<%= link_to 'next', 'compare' %>
+
+<div style="background-color: white; text-align:center; padding: 50px 0px 20px 0px;">
+  <div class="container">
+    <h2 style="line-height: 125%; padding-bottom:20px;">Wedding Packages</h2>
+    <div class="row" style="text-align:left;">
+      <div class="col-sm-3 col-md-3" style="padding-bottom:15px; text-align:center;">
+        <h4 style="padding-bottom:15px;"><b>10</b> packages as reference</h4>
+        <div class="panel panel-default">
+          <div class="panel-heading" style="background:#51C4CC; border:none; padding-bottom:20px;">
+            <div style="padding:5px;">
+              <select class="sub-email" style="width:100%;">
+                <option class="sub-email" value="" disabled selected>▽ Option</option>
+                <option value="01"></option>
+              </select>
+            </div>
+            <div style="padding:5px;">
+              <select class="sub-email" style="width:100%;">
+                <option class="sub-email" value="" disabled selected>▽ Option</option>
+                <option value="01"></option>
+              </select>
+            </div>
+            <div style="padding:5px;">
+              <select class="sub-email" style="width:100%;">
+                <option class="sub-email" value="" disabled selected>▽ Option</option>
+                <option value="01"></option>
+              </select>
+            </div>
+            <div class="row">
+              <div class="" style="padding:5px 20px;">
+                <div type="submit" class="btn btn-sub col-xs-12" style="padding:10.5px 0px;">
+                  <h5>Filter</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-9 col-md-9">
+
+        <div class="panel panel-default">
+          <div class="panel-heading" style="background:white; border:none;">
+            <div class="row">
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <img style="margin:5px 0px 0px 0px;" src="assets/list-01.png" width="100%">
+              </div>
+              <div class="col-xs-12 col-sm-8 col-md-6">
+                <div style="line-height: 50%;">
+                  <h3 style=""><b>New Otani</b></h3>
+                  <div style="padding-top:2px;">
+                    <h5 style=""><b>Location</b>
+                    </div>
+                    <div style="padding-top:2px;">
+                      <br>
+                      <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                      <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                      <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                      <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                      <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-2" style="padding:10px 20px; text-align:right;">
+                  <div type="submit" class="btn btn-sub col-xs-12" style="padding:10.5px 0px;">
+                    <h5>More</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 
 

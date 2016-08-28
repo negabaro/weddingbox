@@ -19,6 +19,14 @@ Rails.application.configure do
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
+  config.serve_static_assets=true
+  config.assets.precompile += ['css/bootstrap.min.css'] 
+  config.assets.precompile += ['css/landing-page.css'] 
+  config.assets.precompile += ['http://fonts.googleapis.com/css?family=Montserrat:700, 400'] 
+  config.assets.precompile += ['js/bootstrap.min.js'] 
+  config.assets.precompile += ['http://fonts.googleapis.com/css?family=Montserrat:700, 40://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'] 
+  config.assets.precompile += ['*.js']
+
   # Raise an error on page load if there are pending migrations.
   config.active_record.migration_error = :page_load
 
